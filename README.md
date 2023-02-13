@@ -43,6 +43,7 @@ b).	To test the algorithms in the package, run "demo/demo_Deep_Kernel.m" in the 
   
       	http://web.eecs.umich.edu/~fessler/code/index.html
 
+# License
 This package is the proprietary property of The Regents of the University of California.
  
 Copyright © 2019 The Regents of the University of California, Davis. 
@@ -67,5 +68,5 @@ THE SOFTWARE PROVIDED HEREUNDER IS ON AN "AS IS" BASIS, AND THE REGENTS HAS NO
 OBLIGATIONS TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS. 
 
 
-
+# Contact
 Please feel free to contact me (Siqi Li) if you have any questions: sqlli@ucdavis.edu
