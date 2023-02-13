@@ -10,18 +10,18 @@ The method is described:
 Program Authors: Siqi Li and Guobao Wang
 Last date: 1/12/2023
 
-The neural KEM reconstuction consists of two separate steps: 
-(1) a KEM step for image update from the projection data
-(2) a deep-learning step in the image domain for updating the kernel coefficient image
 
-
-Prerequistites:
+# Prerequistites:
 	Python 3.7 (or 3.x)
 	PyTorch
 	Matlab R2021a
 
+# Overview
+The neural KEM reconstuction consists of two separate steps: 
+(1) a KEM step for image update from the projection data
+(2) a deep-learning step in the image domain for updating the kernel coefficient image
 
-1. Neural KEM for dynamic PET reconstruction:
+# Neural KEM for dynamic PET reconstruction:
 
 a). 	You can run 'demo_Nerual_KEM.m' to test the proposed method on Zubal phantom simulation that we used in the paper.
 
@@ -30,7 +30,7 @@ b).	'DIP_OT.py' is a function to run the step of deep coefficient prior (deep le
 c).	The proposed method is to optimize kernel coefficient that can be complementary for our recent work "deep kernel". You can change conventional kernel 
 	kernel matrix as improved deep kernel. Details please see line 125 in 'demo_Nerual_KEM.m'.
 
-2. Required packages for PET reconstruction:
+# Required packages for PET reconstruction:
 
 a).	To use this package, you need to add the KER_v0.11 package into your matlab path by
   	running setup.m in matlab. KER_v0.11 package can be downloaded from:
