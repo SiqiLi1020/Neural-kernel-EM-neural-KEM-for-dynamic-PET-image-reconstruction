@@ -37,7 +37,7 @@ a).	To use this package, you need to add the KER_v0.11 package into your matlab 
 
 	https://wanglab.faculty.ucdavis.edu/code
 
-b).	To test the algorithms in the package, run "demo/demo_Deep_Kernel.m" in the demo folder. You
+b).	To test the algorithms in the package, run "demo_Neural_KEM.m" in the current folder. You
   	may need your own system matrix G or use Jeff Fessler's IRT matlab toolbox to 
   	generate one. IRT can downloaded from 
   
